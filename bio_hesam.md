@@ -1,0 +1,3 @@
+### Amir Hesam Salavati
+
+Amir Hesam Salavati received his B.Sc. and M.Sc. in Communication Systems and Science from Sharif University of Technology, Iran in 2006 and 2008. In 2014, he received his Ph.D in Computer and Communication Sciences school of École Polytechnique Fédérale de Lausanne (EPFL). He is with the laboratory Audiovisual Communications (LCAV) at EPFL where he is in charge of activities related to reproducible research at LCAV. His research interests include neural signal processing, coding algorithms, and web design.
