@@ -1,0 +1,27 @@
+body {
+background-color: #81DAF5;
+}
+.reveal p {
+color: white;
+}
+.reveal ul, ol {
+color: white;
+}
+div.output_area pre {
+color: white;
+}
+div.output_stderr {
+background: #F00;
+}
+.reveal table th, .reveal table td {
+color: white;
+}
+.reveal h2 {
+color: #1C1C1C;
+border-bottom: solid grey;
+padding-bottom: 5px;
+}
+.reveal h3 {
+color: #424242;
+}
+
