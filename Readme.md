@@ -1,5 +1,6 @@
 <h1>Getting Started With IPython Notebooks<br></h1><br>
-This tutorial is a shorter version of the more complete one [here](https://github.com/LCAV/SignalsOfTheDay/blob/master/Tutorial/Tutorial.ipynb), which was provided by [LCAV](http://lcav.epfl.ch).
+This tutorial is a shorter version of the more complete one <a href="https://github.com/LCAV/SignalsOfTheDay/blob/master/Tutorial/Tutorial.ipynb"> here</a>, 
+which was provided by <a href="http://lcav.epfl.ch">LCAV</a>.
 
 <ul>
 
@@ -19,30 +20,12 @@ This tutorial is a shorter version of the more complete one [here](https://githu
 
 <li><a href="#win" title="Link: #win">Installation on Windows</a><br></li>
 
-
 <li><a href="#mac" title="Link: #mac">Installation on Mac</a><br></li>
 
-
-<li><a href="#spyder">Spyder</a><br></li>
 </ol>
-
-<li><a href="#start" title="Link: #start">Getting Started: Variables and Arrays</a><br></li>
-
-
-<li><a href="#opera" title="Link: #opera">Matrix Operations</a><br></li>
-
-
-<li><a href="#import" title="Link: #import">Importing Data</a><br></li>
-
-
-<li><a href="#ipy">IPython</a><br></li>
-
 
 <li><a href="#ipynb" title="Link: #ipynb">IPython Notebooks</a><br></li>
 
-<li><a href="#func" title="Link: #func">Functions and Scripts</a><br></li>
-
-<li><a href="#refe" title="Link: #refe">References</a></li>
 
 </ul><br>
 
