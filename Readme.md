@@ -2,7 +2,7 @@
 
 
 
-<ol>
+<ul>
 
 
 <li><a href="#python" title="Link: #python">Introduction</a><br></li>
@@ -45,12 +45,12 @@
 
 <li><a href="#refe" title="Link: #refe">References</a></li>
 
-</ol><br>
+</ul><br>
 
 
 
 <a name="python" title="Link: null"></a>
-<h1>1. Introduction<br></h1> Python is a very popular general-purpose language, with all the modern and classic constructs of a programming language that every software developer appreciates. This is what makes Python beneficial over MATLAB, besides the fact that it is not proprietary and various open source python distributions are freely and publicly available.
+<h1>Introduction<br></h1> Python is a very popular general-purpose language, with all the modern and classic constructs of a programming language that every software developer appreciates. This is what makes Python beneficial over MATLAB, besides the fact that it is not proprietary and various open source python distributions are freely and publicly available.
 
 
 However, the very fact that Python is a general purpose language and not a software specific to scientific computing may be considered a drawback of it, too. To address this problem, several scientific computing packages (i.e. sets of function,classes,...) have been developed and released for it&nbsp;so far. These packages contain a large variety of functions which can solve everyday computational problems of researchers in many fields of&nbsp;engineering and science.
@@ -61,13 +61,13 @@ But the remaining problem is to find, install, maintain, manage updates and reta
 
 
 
-<a name="ana" title="Link: null"></a><h2>2. Anaconda</h2> Anaconda is a completely free Python distribution (i.e. set of packages) for scientific purposes, as stated in their website. It contains more than 125 Python packages for science, mathematics, engineering and data analysis.
+<a name="ana" title="Link: null"></a><h2>Anaconda</h2> Anaconda is a completely free Python distribution (i.e. set of packages) for scientific purposes, as stated in their website. It contains more than 125 Python packages for science, mathematics, engineering and data analysis.
 
 Installing Anaconda will not only give you an out-of-the-box ready python system as well as a fully-featured IDE (Integrated Development Environment), but also it will release you from the burden of manually installing and taking care of dependency and consistency requirements between various packages.
 
 
 <a name="insana" title="Link: null"></a><h1>Installing Anaconda</h1>
-<a name="dl" title="Link: null"></a><h2>3. Downloading Anaconda</h2> To download the Anaconda, you can simply go to the link <a href="http://continuum.io/downloads" title="Link: http://continuum.io/downloads">http://continuum.io/downloads</a> and download the zip file compatible with your system. The download page looks like this:
+<a name="dl" title="Link: null"></a><h2>Downloading Anaconda</h2> To download the Anaconda, you can simply go to the link <a href="http://continuum.io/downloads" title="Link: http://continuum.io/downloads">http://continuum.io/downloads</a> and download the zip file compatible with your system. The download page looks like this:
 
 
 <img title="Image: https://d396qusza40orc.cloudfront.net/dsp/img/dl.png" alt="window" src="https://d396qusza40orc.cloudfront.net/dsp/img/dl.png" width="600">
@@ -76,7 +76,7 @@ Installing Anaconda will not only give you an out-of-the-box ready python system
 It may ask for your e-mail as well.&nbsp;Please note that the Python version Anaconda uses is Python 2.7.<br>
 
 
-<a name="linux"></a><h2>4. Installation on Linux</h2> Installing Anaconda is pretty simple. On Linux-based systems, all you need to do is running the following command.
+<a name="linux"></a><h2>Installation on Linux</h2> Installing Anaconda is pretty simple. On Linux-based systems, all you need to do is running the following command.
 
 
 
@@ -89,12 +89,12 @@ It may ask for your e-mail as well.&nbsp;Please note that the Python version Ana
 
 <div class="code"> export PATH= /anaconda:$PATH</div>
 
-<a name="win" title="Link: null"></a><h2>5. Installation on Windows</h2> Installing Anaconda on Windows should be easy. It is automatically added to Path. In case of any prospective problem, disabling your anti-virus can be a potential solution.
+<a name="win" title="Link: null"></a><h2>Installation on Windows</h2> Installing Anaconda on Windows should be easy. It is automatically added to Path. In case of any prospective problem, disabling your anti-virus can be a potential solution.
 
 <img title="Image: https://d396qusza40orc.cloudfront.net/dsp/img/win.png" alt="window" src="https://d396qusza40orc.cloudfront.net/dsp/img/win.png" width="600">
 
 
-<a name="mac" title="Link: null"></a><h2>6. Installation on Mac</h2> On MacOS, &nbsp;all you need to do is running the graphical installer. Anaconda will be automatically added to your path. However, in some cases an error message may appear at the installation time which is not a big deal. You can simply click <i>Install for me only&nbsp;</i>and go on.
+<a name="mac" title="Link: null"></a><h2>Installation on Mac</h2> On MacOS, &nbsp;all you need to do is running the graphical installer. Anaconda will be automatically added to your path. However, in some cases an error message may appear at the installation time which is not a big deal. You can simply click <i>Install for me only&nbsp;</i>and go on.
 
 <img title="Image: https://d396qusza40orc.cloudfront.net/dsp/img/osx.png" alt="window" src="https://d396qusza40orc.cloudfront.net/dsp/img/osx.png" width="600">
 
@@ -110,7 +110,7 @@ Now open the file ~/.profile and add the following line
 Then close the terminal session and try again. You might need to replace <code>us_EN</code> by a different value matching your system configuration.
 
 
-<a name="spyder" title="Link: null"></a><h2>7. Spyder</h2>Spyder is a popular and very handy GUI for Python which is integrated in Anaconda by default. It is very similar to MATLAB's GUI meaning that&nbsp;if you have already worked with MATLB, you will not get lost in spyder. You can run the spyder using the following command in your command line:.
+<a name="spyder" title="Link: null"></a><h2>Spyder</h2>Spyder is a popular and very handy GUI for Python which is integrated in Anaconda by default. It is very similar to MATLAB's GUI meaning that&nbsp;if you have already worked with MATLB, you will not get lost in spyder. You can run the spyder using the following command in your command line:.
 <div class="code">spyder</div><br/>
 
 
@@ -126,8 +126,17 @@ Finally, the <i>Editor</i> window in the left is where you create and edit your 
 
 
 
-<a name="start" title="Link: null"></a><h2>8. Getting Started: Variables and Arrays</h2> Variables are where you store your values and results of your operations. Despite some other programming languages, in Anaconda there is no need to define a variable or its type&nbsp;prior to using it. The most important variable type you will be working
 
-with is the array type. Please note the very important fact that in Python, indices of an array start from zero. This is in contrast to some other systems (the most notable of them is MATLAB) in which arrays and matrices are indexed starting from one.
+<a name="ipynb" title="Link: null"></a><h1>IPython Notebooks</h1>
+IPython notebooks are very interesting novel features added to recent versions of IPython. Notebooks are interactive documents that allow running Python code and reading (or writing) notes and documentations <i>in the same place</i>. Therefore, one can not only see the results he is reading&nbsp;about, but also can produce different results by changing the documented code. <br><br>A notebook is actually an extended HTML file which contains specific markup to distinguish Python codes inside the page. When displayed using a custom web server, it allows interactive execution and editing of the code inside the document. However, it can also be viewed as a usual, nicely-formatted HTML page. The document you are currently reading is itself an IPython notebook.
 
-Initializing arrays is simple and can be done using the following commands, for example:
+The command to run the IPython Notebooks web server is the following:
+
+`$ ipython notebook`
+
+
+<br/>When you execute the command above, a new browser window is opened which shows the notebooks in the current folder. The IPython notebook files have the ".ipynb" extension.
+
+There are a lot of notebooks available on the web which you can see and read. The GitHub repository available in <a href="https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks" title="Link: https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks">here</a>&nbsp;contains many useful and interesting ones. The source code of these notebooks is also available through the GitHub version control system.  
+ 
+Another interesting source is the book "Python For Signal Processing" which is publicly available as a series of IPython notebooks available <a href="https://github.com/unpingco/Python-for-Signal-Processing" title="Link: https://github.com/unpingco/Python-for-Signal-Processing">at this address.<br>
