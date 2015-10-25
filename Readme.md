@@ -24,12 +24,8 @@ which was provided by <a href="http://lcav.epfl.ch">LCAV</a>.
 
 </ol>
 
-<li><a href="#ipynb" title="Link: #ipynb">IPython Notebooks</a><br></li>
-
-
-</ul><br>
-
-
+<li><a href="#ipynb" title="Link: #ipynb">IPython Notebooks</a></li>
+</ul>
 
 <a name="python" title="Link: null"></a>
 <h1>Introduction<br></h1> Python is a very popular general-purpose language, with all the modern and classic constructs of a programming language that every software developer appreciates. This is what makes Python beneficial over MATLAB, besides the fact that it is not proprietary and various open source python distributions are freely and publicly available.
