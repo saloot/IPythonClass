@@ -1,6 +1,5 @@
-<h1>Getting Started With Python and Anaconda<br></h1><br>
-
-
+<h1>Getting Started With IPython Notebooks<br></h1><br>
+This tutorial is a shorter version of the more complete one [here](https://github.com/LCAV/SignalsOfTheDay/blob/master/Tutorial/Tutorial.ipynb), which was provided by [LCAV](http://lcav.epfl.ch).
 
 <ul>
 
@@ -80,14 +79,12 @@ It may ask for your e-mail as well.&nbsp;Please note that the Python version Ana
 
 
 
-<div class="code"> bash Anaconda-1.x.x-Linux-x86[ 64].sh</div>
+`$ bash Anaconda-1.x.x-Linux-x86[ 64].sh`
 
-<br> No root access is required. However, you will need to manually add Python executable files to your Path environment if you want to run them from every folder. This can be done by adding the following line of code to your ~/.bashrc file:
-
-
+No root access is required. However, you will need to manually add Python executable files to your Path environment if you want to run them from every folder. This can be done by adding the following line of code to your ~/.bashrc file:
 
 
-<div class="code"> export PATH= /anaconda:$PATH</div>
+`export PATH= /anaconda:$PATH`
 
 <a name="win" title="Link: null"></a><h2>Installation on Windows</h2> Installing Anaconda on Windows should be easy. It is automatically added to Path. In case of any prospective problem, disabling your anti-virus can be a potential solution.
 
@@ -104,27 +101,16 @@ It seems to happens for older versions of OS X that the following error is gener
 In that case, run the command <strong>locale</strong> in the terminal and inspect the value of the environment variable <code>LC_CTYPE</code>. It is probably just <code>UTF-8</code>.
 
 Now open the file ~/.profile and add the following line
-<div class="code">export LC_CTYPE='us_EN.UTF-8'
-</div>
+
+`export LC_CTYPE='us_EN.UTF-8'`
+
 
 Then close the terminal session and try again. You might need to replace <code>us_EN</code> by a different value matching your system configuration.
 
+<a name="readmoreIPy" title="Link: null"></a><h2>Reading more about Python basics</h2>
+If you are new to Python, you can start with some introdcutory online courses (such as [this one](https://www.udacity.com/course/programming-foundations-with-python--ud036)).
 
-<a name="spyder" title="Link: null"></a><h2>Spyder</h2>Spyder is a popular and very handy GUI for Python which is integrated in Anaconda by default. It is very similar to MATLAB's GUI meaning that&nbsp;if you have already worked with MATLB, you will not get lost in spyder. You can run the spyder using the following command in your command line:.
-<div class="code">spyder</div><br/>
-
-
-
-
-When you run the command above, the following screen appears.
-
-<img title="Image: https://d396qusza40orc.cloudfront.net/dsp/img/spyder.png" alt="window" src="https://d396qusza40orc.cloudfront.net/dsp/img/spyder.png" width="600">
-
-The <i>Console</i> window on the bottom right is where you type your commands and view possible results. The Object inspector window in top right shows the help manual available for functions you type in the console window. In the top bar of the application you can see and change your working directory. This is the default location in which spyder expects to find the files you read, the scripts you run,... &nbsp;.<br>
-
-Finally, the <i>Editor</i> window in the left is where you create and edit your own functions. &nbsp;We will talk about functions later in this tutorial.<br>
-
-
+Alternatively, you might be interested in taking a look at [this tutorial](https://github.com/LCAV/SignalsOfTheDay/blob/master/Tutorial/Tutorial.ipynb), which was procided by [LCAV](http://lcav.epfl.ch) here at EPFL.
 
 
 <a name="ipynb" title="Link: null"></a><h1>IPython Notebooks</h1>
@@ -134,9 +120,9 @@ The command to run the IPython Notebooks web server is the following:
 
 `$ ipython notebook`
 
+When you execute the command above, a new browser window is opened which shows the notebooks in the current folder. The IPython notebook files have the ".ipynb" extension.
 
-<br/>When you execute the command above, a new browser window is opened which shows the notebooks in the current folder. The IPython notebook files have the ".ipynb" extension.
-
+<a name="readmoreIPy" title="Link: null"></a><h2>Reading more about IPython Notebooks</h2> 
 There are a lot of notebooks available on the web which you can see and read. The GitHub repository available in <a href="https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks" title="Link: https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks">here</a>&nbsp;contains many useful and interesting ones. The source code of these notebooks is also available through the GitHub version control system.  
  
 Another interesting source is the book "Python For Signal Processing" which is publicly available as a series of IPython notebooks available <a href="https://github.com/unpingco/Python-for-Signal-Processing" title="Link: https://github.com/unpingco/Python-for-Signal-Processing">at this address.<br>
