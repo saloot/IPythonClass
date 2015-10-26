@@ -111,14 +111,28 @@ Another interesting source is the book "Python For Signal Processing" which is p
 In this workshop, we are going to show you how you can publish the IPython Notebook for your paper onto *Github* and share it with your colleagues.
 For those of you who are not familiar with how Github works, we have summarized a few helpful commands to get you started.
 
-<a name="githubRepCreate" title="Link: null"></a><h3>Creating a Repository</h3>
+<a name="githubRepCreate" title="Link: null"></a><h2>Creating a Repository</h2>
 A repository is a collection of files/folders where you store/share your code, data and paper body.
 To create a repository, you can simply
 <ol>
 <li> <a href="https://github.com/login?return_to=%2Fjoin">Sign in</a> to your Github account (or <a href="https://github.com/join">signup</a> by creating an account)
 <li> Once signed in, click on the "+" sign on top right of your screen (see the figure below) and select "New Reprository".
 <img alt="Create a new repository on Github" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithub.png" width="600">
-
+</li>
+<li> Select a name for your repository and click on "Create reprository".
+<img alt="Create a new repository on Github" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep2.png" width="600">
+</li>
+<li>Congratulations! Once you see a screen like the one below you are done :) <b>Make sure to keep the URL specified in the figure below somewhere handy</b>.
+We will need it shortly.
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep3.png" width="600">
 </ol>
 
 
+<a name="githubRepPush" title="Link: null"></a><h2>Submitting Files to the Repository</h2>
+<a name="githubRepPushWin" title="Link: null"></a><h4>Windows Users</h4>
+<ol>
+<li> Donwload the Github client for Windows </li>
+<li> In your browser, Github 
+</ol>
+
+<a name="githubRepPushMac" title="Link: null"></a><h4>Mac and Linux Users</h4>
