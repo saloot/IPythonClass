@@ -9,7 +9,7 @@ which was provided by <a href="http://lcav.epfl.ch">LCAV</a>.
 
 <li><a href="#ana" title="Link: #ana">Anaconda</a><br></li>
 
-<li><a href="#insana" title="Link: #ana">Installing Anaconda</a><br></li>
+<li><a href="#insana" title="Link: #ana">Installing Python and IPython Notebooks</a><br></li>
 
 <ol>
 <li><a href="#dl" title="Link: #dl">Downloading Anaconda</a><br></li>
@@ -44,7 +44,7 @@ But the remaining problem is to find, install, maintain, manage updates and reta
 Installing Anaconda will not only give you an out-of-the-box ready python system as well as a fully-featured IDE (Integrated Development Environment), but also it will release you from the burden of manually installing and taking care of dependency and consistency requirements between various packages.
 
 
-<a name="insana" title="Link: null"></a><h1>Installing Anaconda</h1>
+<a name="insana" title="Link: null"></a><h1>Installing Python and IPython Notebooks</h1>
 <a name="dl" title="Link: null"></a><h2>Downloading Anaconda</h2> To download the Anaconda, you can simply go to the link <a href="http://continuum.io/downloads" title="Link: http://continuum.io/downloads">http://continuum.io/downloads</a> and download the zip file compatible with your system. The download page looks like this:
 
 
@@ -105,3 +105,20 @@ When you execute the command above, a new browser window is opened which shows t
 There are a lot of notebooks available on the web which you can see and read. The GitHub repository available in <a href="https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks" title="Link: https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks">here</a>&nbsp;contains many useful and interesting ones. The source code of these notebooks is also available through the GitHub version control system.  
  
 Another interesting source is the book "Python For Signal Processing" which is publicly available as a series of IPython notebooks available <a href="https://github.com/unpingco/Python-for-Signal-Processing" title="Link: https://github.com/unpingco/Python-for-Signal-Processing">at this address.<br>
+
+
+<a name="github" title="Link: null"></a><h1>Working with Github</h1>
+In this workshop, we are going to show you how you can publish the IPython Notebook for your paper onto *Github* and share it with your colleagues.
+For those of you who are not familiar with how Github works, we have summarized a few helpful commands to get you started.
+
+<a name="githubRepCreate" title="Link: null"></a><h3>Creating a Repository</h3>
+A repository is a collection of files/folders where you store/share your code, data and paper body.
+To create a repository, you can simply
+<ol>
+<li> <a href="https://github.com/login?return_to=%2Fjoin">Sign in</a> to your Github account (or <a href="https://github.com/join">signup</a> by creating an account)
+<li> Once signed in, click on the "+" sign on top right of your screen (see the figure below) and select "New Reprository".
+<img alt="Create a new repository on Github" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithub.png" width="600">
+
+</ol>
+
+
