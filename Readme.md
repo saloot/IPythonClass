@@ -134,7 +134,7 @@ Users that use Mac OS or Linux could use simple commands using terminal to submi
 <ul>
 <li> Open a "Terminal" and navigate to the folder containg your codes (make sure you have some files in the folder). </li>
 <li> Execute the following commands </li>
-
+</ul>
     `git init`
 
     `git add \*`
@@ -147,7 +147,7 @@ Users that use Mac OS or Linux could use simple commands using terminal to submi
 
 Note that the "the_url_to_your_repository" is the same URL that you have "kept somewhere handy". Here's when we need it ;)
 
-
+</ul>
 <li> Congratulations! You have successfully submitted your code. To verify, go back to your web browser and navigate to your Github repository on the web. You should see a page like the one below.
 
 <img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep10.png" width="600">
