@@ -192,6 +192,6 @@ Git and Github are twopowerful tools for backing up your code, do proper version
 There are lots of very good tutorials on the web, from beginner to advanced.
 <ul>
 <li> <a href="https://help.github.com/articles/good-resources-for-learning-git-and-github/">A list of good resources</a> for learning Git and Github from Github website.</li>
-<li> A simple <a href="https://guides.github.com/activities/hello-world/">Github "Hello World" Example</a>/li>
-<li> Nice introductory <a href="https://www.udacity.com/course/how-to-use-git-and-github--ud775"course on using Git and Github</a></li>
+<li> A simple <a href="https://guides.github.com/activities/hello-world/">Github "Hello World" Example</a></li>
+<li> Nice introductory <a href="https://www.udacity.com/course/how-to-use-git-and-github--ud775">course on using Git and Github</a></li>
 </ul>
