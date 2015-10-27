@@ -123,16 +123,46 @@ To create a repository, you can simply
 <img alt="Create a new repository on Github" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep2.png" width="600">
 </li>
 <li>Congratulations! Once you see a screen like the one below you are done :) <b>Make sure to keep the URL specified in the figure below somewhere handy</b>.
-We will need it shortly.
+We will need it shortly. Also, <b>do not close this window for now!</b>.
 <img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep3.png" width="600">
 </ol>
 
 
 <a name="githubRepPush" title="Link: null"></a><h2>Submitting Files to the Repository</h2>
-<a name="githubRepPushWin" title="Link: null"></a><h4>Windows Users</h4>
+<a name="githubRepPushMac" title="Link: null"></a><h4>Mac and Linux Users</h4>
+Users that use Mac OS or Linux could use simple commands using terminal to submit your code.
 <ol>
-<li> Donwload the Github client for Windows </li>
-<li> In your browser, Github 
+
 </ol>
 
-<a name="githubRepPushMac" title="Link: null"></a><h4>Mac and Linux Users</h4>
+<a name="githubRepPushWin" title="Link: null"></a><h4>Windows Users</h4>
+<ol>
+<li> Donwload the Github client for Windows <a href="https://desktop.github.com/">from here</a> and install it.</li>
+<li> After installation, in your browser, navigate to the Github page you saw in the <i>Step 4</i> above. Then, select <b>Setup in Dekstop (see figure below)</b>
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep4.png" width="600">
+</li>
+<li> The browser will ask for permission to launch the Github application. Please allow it ;) 
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep5.png" width="600">
+</li>
+<li> Once opened, navigate to the place you want your repository be on your hard drive and clik on <b>Clone</b>.
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep6.png" width="600">
+</li>
+<li> You should now see a repository on the left panel in your Github application.
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep7.png" width="600">
+</li>
+<li> On your hard drive, add your codes to the repository folder. Then, go back to the Github application and you should see that new changes have been found in your repository.
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep8.png" width="600">
+</li>
+<li> At this point, add some comment to the "Summary" filed about what you changed and then click on <b>Commit and Sync master</b>.
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep9.png" width="600">
+</li>
+<li> Congratulations! You have successfully submitted your code. To verify, go back to your web browser and navigate to your Github repository on the web. You should see a page like the one below.
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep10.png" width="600">
+</li>
+<li>
+Now, you can edit the code on your hard drive and submit it regularly (to backup and do version control) just like what we did above. Once finished, you can share the URL
+of your repository with your colleagues and let them to enjoy your magnificent work as well :) Happy coding!
+</li>
+</ol>
+
+
