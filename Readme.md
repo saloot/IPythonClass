@@ -27,6 +27,7 @@ which was provided by <a href="http://lcav.epfl.ch">LCAV</a>.
 <li><a href="#ipynb" title="Link: #ipynb">IPython Notebooks</a></li>
 <li><a href="#github" title="Link: #ipynb">Working with Github</a></li>
 <li><a href="#coursdownload" title="Link: #ipynb">Downloading Course Material</a></li>
+<li><a href="#contatcs" title="Link: #ipynb">Contact Us</a></li>
 </ul>
 
 <a name="python" title="Link: null"></a>
@@ -200,4 +201,10 @@ There are lots of very good tutorials on the web, from beginner to advanced.
 
 
 <a name="coursdownload" title="Link: null"></a><h1>Downloading Course Material</h1>
-IPython notebooks are very interesting novel features added to recent versions of IPython. Notebooks are interactive documents that allow running Python code and reading (or writing) notes and documentations <i>in the same place</i>. Therefore, one can not only see the results he is reading&nbsp;about, but also can produce different results by changing the documented code. <br><br>A notebook is actually an extended HTML file which contains specific markup to distinguish Python codes inside the page. When displayed using a custom web server, it allows interactive execution and editing of the code inside the document. However, it can also be viewed as a usual, nicely-formatted HTML page. The document you are currently reading is itself an IPython notebook.
+You can simply click on the <b>Download ZIP</b> button on the right side of your screen, as shown in the figure below (of course there is the "Github way" as well but for now, this simpler solution should do the job ;) ).
+<img alt="Download Course Materials" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/DownloadCourseMaterial.png" width="600">
+
+
+<a name="contatcs" title="Link: null"></a><h1>Contacts</h1>
+In case you had any trouble in the above steps or ANY questions or suggestions regarding the workshop, logistics, IPython, etc.
+please do not hesitate to contact us (<a href="mailto:robin.scheibler@epfl.ch">Robin</a> or <a href="mailto:hesam.salavati@epfl.ch">Hesam</a>). We will be happy to help :) 
