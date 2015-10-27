@@ -132,7 +132,25 @@ We will need it shortly. Also, <b>do not close this window for now!</b>.
 <a name="githubRepPushMac" title="Link: null"></a><h4>Mac and Linux Users</h4>
 Users that use Mac OS or Linux could use simple commands using terminal to submit your code.
 <ol>
+<li> Open a "Terminal" and navigate to the folder containg your codes (make sure you have some files in the folder). </li>
+<li> Execute the following commands
+`git init`
 
+`git add \*`
+
+`git commit -m "first commit"`
+
+`git remote add origin the_url_to_your_repository`
+
+`git push -u origin master`
+
+Note that the "the_url_to_your_repository" is the same URL that you have "kept somewhere handy". Here's when we need it ;)
+</li>
+
+<li> Congratulations! You have successfully submitted your code. To verify, go back to your web browser and navigate to your Github repository on the web. You should see a page like the one below.
+
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep10.png" width="600">
+</li>
 </ol>
 
 <a name="githubRepPushWin" title="Link: null"></a><h4>Windows Users</h4>
@@ -157,6 +175,7 @@ Users that use Mac OS or Linux could use simple commands using terminal to submi
 <img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep9.png" width="600">
 </li>
 <li> Congratulations! You have successfully submitted your code. To verify, go back to your web browser and navigate to your Github repository on the web. You should see a page like the one below.
+
 <img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep10.png" width="600">
 </li>
 <li>
@@ -165,4 +184,13 @@ of your repository with your colleagues and let them to enjoy your magnificent w
 </li>
 </ol>
 
+<a name="githubRepPush" title="Link: null"></a><h2>Reading More About Using Git and Github</h2>
 
+<a name="githubRepPush" title="Link: null"></a><h2>Reading More About Using Git and Github</h2>
+Git and Github are twopowerful tools for backing up your code, do proper version control and share the code with your colleagues.
+There are lots of very good tutorials on the web, from beginner to advanced.
+<ul>
+<li> <a href="https://help.github.com/articles/good-resources-for-learning-git-and-github/">A list of good resources</a> for learning Git and Github from Github website.</li>
+<li> A simple <a href="https://guides.github.com/activities/hello-world/">Github "Hello World" Example</a>/li>
+<li> Nice introductory <a href="https://www.udacity.com/course/how-to-use-git-and-github--ud775"course on using Git and Github</a></li>
+</ul>
