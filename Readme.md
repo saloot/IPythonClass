@@ -134,9 +134,10 @@ Users that use Mac OS or Linux could use simple commands using terminal to submi
 <ol>
 <li> Open a "Terminal" and navigate to the folder containg your codes (make sure you have some files in the folder). </li>
 <li> Execute the following commands
-`git init`
 
-`git add \*`
+    `git init`
+
+    `git add \*`
 
 `git commit -m "first commit"`
 
