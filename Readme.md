@@ -188,7 +188,6 @@ of your repository with your colleagues and let them to enjoy your magnificent w
 </li>
 </ol>
 
-<a name="githubRepPush" title="Link: null"></a><h2>Reading More About Using Git and Github</h2>
 
 <a name="githubRepPush" title="Link: null"></a><h2>Reading More About Using Git and Github</h2>
 Git and Github are twopowerful tools for backing up your code, do proper version control and share the code with your colleagues.
