@@ -135,15 +135,15 @@ Users that use Mac OS or Linux could use simple commands using terminal to submi
 <li> Open a "Terminal" and navigate to the folder containg your codes (make sure you have some files in the folder). </li>
 <li> Execute the following commands </li>
 </ul>
-    `git init`
+    `$ git init`
 
-    `git add \*`
+    `$ git add *`
 
-`git commit -m "first commit"`
+    `$ git commit -m "first commit"`
 
-`git remote add origin the_url_to_your_repository`
+    `$ git remote add origin the_url_to_your_repository`
 
-`git push -u origin master`
+    `$ git push -u origin master`
 
 Note that the "the_url_to_your_repository" is the same URL that you have "kept somewhere handy". Here's when we need it ;)
 
