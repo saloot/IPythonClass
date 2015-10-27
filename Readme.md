@@ -179,7 +179,7 @@ Note that the "the_url_to_your_repository" is the same URL that you have "kept s
 <img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep9.png" width="600">
 </li>
 <li> Congratulations! You have successfully submitted your code. To verify, go back to your web browser and navigate to your Github repository on the web. You should see a page like the one below.
-
+<br>
 <img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep10.png" width="600">
 </li>
 <li>
