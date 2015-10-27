@@ -152,7 +152,7 @@ Note that the "the_url_to_your_repository" is the same URL that you have "kept s
 
 </ul>
 <li> Congratulations! You have successfully submitted your code. To verify, go back to your web browser and navigate to your Github repository on the web. You should see a page like the one below.
-
+<br>
 <img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep10.png" width="600">
 </li>
 </ul>
@@ -202,6 +202,7 @@ There are lots of very good tutorials on the web, from beginner to advanced.
 
 <a name="coursdownload" title="Link: null"></a><h1>Downloading Course Material</h1>
 You can simply click on the <b>Download ZIP</b> button on the right side of your screen, as shown in the figure below (of course there is the "Github way" as well but for now, this simpler solution should do the job ;) ).
+<br>
 <img alt="Download Course Materials" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/DownloadCourseMaterial.png" width="600">
 
 
