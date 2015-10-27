@@ -25,6 +25,7 @@ which was provided by <a href="http://lcav.epfl.ch">LCAV</a>.
 </ol>
 
 <li><a href="#ipynb" title="Link: #ipynb">IPython Notebooks</a></li>
+<li><a href="#github" title="Link: #ipynb">Working with Github</a></li>
 </ul>
 
 <a name="python" title="Link: null"></a>
