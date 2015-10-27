@@ -26,6 +26,7 @@ which was provided by <a href="http://lcav.epfl.ch">LCAV</a>.
 
 <li><a href="#ipynb" title="Link: #ipynb">IPython Notebooks</a></li>
 <li><a href="#github" title="Link: #ipynb">Working with Github</a></li>
+<li><a href="#coursdownload" title="Link: #ipynb">Downloading Course Material</a></li>
 </ul>
 
 <a name="python" title="Link: null"></a>
@@ -196,3 +197,7 @@ There are lots of very good tutorials on the web, from beginner to advanced.
 <li> A simple <a href="https://guides.github.com/activities/hello-world/">Github "Hello World" Example</a></li>
 <li> Nice introductory <a href="https://www.udacity.com/course/how-to-use-git-and-github--ud775">course on using Git and Github</a></li>
 </ul>
+
+
+<a name="coursdownload" title="Link: null"></a><h1>Downloading Course Material</h1>
+IPython notebooks are very interesting novel features added to recent versions of IPython. Notebooks are interactive documents that allow running Python code and reading (or writing) notes and documentations <i>in the same place</i>. Therefore, one can not only see the results he is reading&nbsp;about, but also can produce different results by changing the documented code. <br><br>A notebook is actually an extended HTML file which contains specific markup to distinguish Python codes inside the page. When displayed using a custom web server, it allows interactive execution and editing of the code inside the document. However, it can also be viewed as a usual, nicely-formatted HTML page. The document you are currently reading is itself an IPython notebook.
