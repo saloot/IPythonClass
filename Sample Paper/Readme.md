@@ -51,23 +51,22 @@ The code has been tested on Mac OS X 10.7, 10.8, 10.9, and on Ubuntu linux.
 License
 -------
 
-2013-2015 (c) Robin Scheibler, Saeid Haghighatshoar, Martin, Vetterli.
+2013-2015 (c) Author 1 and Author 2.
 
 This work is licensed under the Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy
-of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
+of this license, visit [this link](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 The code is free to reuse for non-commercial and academic purposes. However,
 please acknowledge its use with the following citation.
 
     @article{EPFL-JOUR-204991,
-       author      = {Scheibler, Robin and Haghighatshoar, Saeid and Vetterli, Martin},
-       title       = {A {F}ast {H}adamard {T}ransform for {S}ignals with
-                     {S}ub-linear {S}parsity in the {T}ransform {D}omain},
-       journal     = {IEEE Trans. Inf. Theory}
-       volume      = 61,
-       year        = 2015,
-       ee          = {http://infoscience.epfl.ch/record/204991}
+       author      = {Author 1 and Author 2},
+       title       = {Paper Title},
+       journal     = {Some journal}
+       volume      = 1,
+       year        = 2016,
+       ee          = {http://link_to_paper.ch}
     }
 
 For any other purposes, please contact the authors.
