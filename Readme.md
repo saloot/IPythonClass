@@ -140,7 +140,7 @@ Users that use Mac OS or Linux could use simple commands using terminal to submi
 </ul>
     $ git init
 
-    $ git add *
+    $ git add ./*
 
     $ git commit -m "first commit"
 
