@@ -10,20 +10,12 @@ Abstract
 After a week spent meticulously agreeing the exact wording, the Intergovernmental Panel on Climate Change (IPCC)
 has just released a summary of the first part of its major report reviewing the science of climate change.
 
-Contact
--------
+Selected results from the paper
+--------
+Our analysis shows that the increase in the amount of CO2 in the atmosphere is correlated with the increase in oceans' heat content. See the figure below.
 
-Author 1
-([email](mailto:first[dot]last[at]epfl[dot]ch))
-([homepage](http://google.com))
-
-Author 2
-([email](mailto:first2[dot]last2[at]epfl[dot]ch))
-([homepage](http://google.com))
-
-Please do not hesitate to contact me for help and support!
-
-We would be happy to help you run the code.
+<img src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/AtmosphericCO2.png" width=600>
+<br>
 
 Executing the Code
 ---------
@@ -69,4 +61,18 @@ please acknowledge its use with the following citation.
        ee          = {http://link_to_paper.ch}
     }
 
+
+Contact
+-------
 For any other purposes, please contact the authors.
+
+Author 1
+([email](mailto:first[dot]last[at]epfl[dot]ch))
+([homepage](http://google.com))
+
+Author 2
+([email](mailto:first2[dot]last2[at]epfl[dot]ch))
+([homepage](http://google.com))
+
+Please do not hesitate to contact us. We would be happy to help you run the code.
+
