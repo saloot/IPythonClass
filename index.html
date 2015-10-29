@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Getting Prepared for the IPython Workshop by saloot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Getting Prepared for the IPython Workshop</h1>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.com/saloot/IPythonClass" class="btn">View on GitHub</a>
+      <a href="https://github.com/saloot/IPythonClass/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/saloot/IPythonClass/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="getting-started-with-ipython-notebooks" class="anchor" href="#getting-started-with-ipython-notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Started With IPython Notebooks<br>
+</h1><br>
+This tutorial is a shorter version of the more complete one <a href="https://github.com/LCAV/SignalsOfTheDay/blob/master/Tutorial/Tutorial.ipynb"> here</a>, 
+which was provided by <a href="http://lcav.epfl.ch">LCAV</a>.
+
+<ul>
+
+
+<li>
+<a href="#python" title="Link: #python">Introduction</a><br>
+</li>
+
+<li>
+<a href="#ana" title="Link: #ana">Anaconda</a><br>
+</li>
+
+<li>
+<a href="#insana" title="Link: #ana">Installing Python and IPython Notebooks</a><br>
+</li>
+
+</ul><ol>
+<li>
+<a href="#dl" title="Link: #dl">Downloading Anaconda</a><br>
+</li>
+
+
+<li>
+<a href="#linux">Installation on Linux</a><br>
+</li>
+
+
+<li>
+<a href="#win" title="Link: #win">Installation on Windows</a><br>
+</li>
+
+<li>
+<a href="#mac" title="Link: #mac">Installation on Mac</a><br>
+</li>
+
+</ol>
+
+<a href="#ipynb" title="Link: #ipynb">IPython Notebooks</a>
+<a href="#github" title="Link: #ipynb">Working with Github</a>
+<a href="#coursdownload" title="Link: #ipynb">Downloading Course Material</a>
+<a href="#contatcs" title="Link: #ipynb">Contact Us</a>
+
+
+<a name="python" title="Link: null"></a>
+<h1>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction<br>
+</h1> Python is a very popular general-purpose language, with all the modern and classic constructs of a programming language that every software developer appreciates. This is what makes Python beneficial over MATLAB, besides the fact that it is not proprietary and various open source python distributions are freely and publicly available.
+
+
+However, the very fact that Python is a general purpose language and not a software specific to scientific computing may be considered a drawback of it, too. To address this problem, several scientific computing packages (i.e. sets of function,classes,...) have been developed and released for it so far. These packages contain a large variety of functions which can solve everyday computational problems of researchers in many fields of engineering and science.
+
+
+But the remaining problem is to find, install, maintain, manage updates and retain the consistency among all such packages as well as the Python system itself. This is where Anaconda comes in.
+
+
+
+
+<a name="ana" title="Link: null"></a><h2>
+<a id="anaconda" class="anchor" href="#anaconda" aria-hidden="true"><span class="octicon octicon-link"></span></a>Anaconda</h2> Anaconda is a completely free Python distribution (i.e. set of packages) for scientific purposes, as stated in their website. It contains more than 125 Python packages for science, mathematics, engineering and data analysis.
+
+Installing Anaconda will not only give you an out-of-the-box ready python system as well as a fully-featured IDE (Integrated Development Environment), but also it will release you from the burden of manually installing and taking care of dependency and consistency requirements between various packages.
+
+
+<a name="insana" title="Link: null"></a><h1>
+<a id="installing-python-and-ipython-notebooks" class="anchor" href="#installing-python-and-ipython-notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing Python and IPython Notebooks</h1>
+
+<p><a name="dl" title="Link: null"></a></p><h2>
+<a id="downloading-anaconda" class="anchor" href="#downloading-anaconda" aria-hidden="true"><span class="octicon octicon-link"></span></a>Downloading Anaconda</h2> To download the Anaconda, you can simply go to the link <a href="http://continuum.io/downloads" title="Link: http://continuum.io/downloads"></a><a href="http://continuum.io/downloads">http://continuum.io/downloads</a> and download the zip file compatible with your system. The download page looks like this:
+
+<p><img title="Image: https://d396qusza40orc.cloudfront.net/dsp/img/dl.png" alt="window" src="https://d396qusza40orc.cloudfront.net/dsp/img/dl.png" width="600"></p>
+
+<p>It may ask for your e-mail as well. Please note that the Python version Anaconda uses is Python 2.7.<br></p>
+
+<p><a name="linux"></a></p><h2>
+<a id="installation-on-linux" class="anchor" href="#installation-on-linux" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation on Linux</h2> Installing Anaconda is pretty simple. On Linux-based systems, all you need to do is running the following command.
+
+<p><code>$ bash Anaconda-1.x.x-Linux-x86[ 64].sh</code></p>
+
+<p>No root access is required. However, you will need to manually add Python executable files to your Path environment if you want to run them from every folder. This can be done by adding the following line of code to your ~/.bashrc file:</p>
+
+<p><code>export PATH= /anaconda:$PATH</code></p>
+
+<p><a name="win" title="Link: null"></a></p><h2>
+<a id="installation-on-windows" class="anchor" href="#installation-on-windows" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation on Windows</h2> Installing Anaconda on Windows should be easy. It is automatically added to Path. In case of any prospective problem, disabling your anti-virus can be a potential solution.
+
+<p><img title="Image: https://d396qusza40orc.cloudfront.net/dsp/img/win.png" alt="window" src="https://d396qusza40orc.cloudfront.net/dsp/img/win.png" width="600"></p>
+
+<p><a name="mac" title="Link: null"></a></p><h2>
+<a id="installation-on-mac" class="anchor" href="#installation-on-mac" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation on Mac</h2> On MacOS,  all you need to do is running the graphical installer. Anaconda will be automatically added to your path. However, in some cases an error message may appear at the installation time which is not a big deal. You can simply click <i>Install for me only </i>and go on.
+
+<p><img title="Image: https://d396qusza40orc.cloudfront.net/dsp/img/osx.png" alt="window" src="https://d396qusza40orc.cloudfront.net/dsp/img/osx.png" width="600"></p>
+
+<p>It seems to happens for older versions of OS X that the following error is generated when launching the ipython notebook (see <a href="#ipynb" title="Link: #ipynb">section 12</a>)</p>
+
+<div>ValueError: unknown locale: UTF-8</div>
+
+<p>In that case, run the command <strong>locale</strong> in the terminal and inspect the value of the environment variable <code>LC_CTYPE</code>. It is probably just <code>UTF-8</code>.</p>
+
+<p>Now open the file ~/.profile and add the following line</p>
+
+<p><code>export LC_CTYPE='us_EN.UTF-8'</code></p>
+
+<p>Then close the terminal session and try again. You might need to replace <code>us_EN</code> by a different value matching your system configuration.</p>
+
+<p><a name="readmoreIPy" title="Link: null"></a></p><h2>
+<a id="reading-more-about-python-basics" class="anchor" href="#reading-more-about-python-basics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reading more about Python basics</h2>
+If you are new to Python, you can start with some introdcutory online courses (such as <a href="https://www.udacity.com/course/programming-foundations-with-python--ud036">this one</a>).
+
+<p>Alternatively, you might be interested in taking a look at <a href="https://github.com/LCAV/SignalsOfTheDay/blob/master/Tutorial/Tutorial.ipynb">this tutorial</a>, which was procided by <a href="http://lcav.epfl.ch">LCAV</a> here at EPFL.</p>
+
+<p><a name="ipynb" title="Link: null"></a></p><h1>
+<a id="ipython-notebooks" class="anchor" href="#ipython-notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>IPython Notebooks</h1>
+IPython notebooks are very interesting novel features added to recent versions of IPython. Notebooks are interactive documents that allow running Python code and reading (or writing) notes and documentations <i>in the same place</i>. Therefore, one can not only see the results he is reading about, but also can produce different results by changing the documented code. <br><br>A notebook is actually an extended HTML file which contains specific markup to distinguish Python codes inside the page. When displayed using a custom web server, it allows interactive execution and editing of the code inside the document. However, it can also be viewed as a usual, nicely-formatted HTML page. The document you are currently reading is itself an IPython notebook.
+
+<p>The command to run the IPython Notebooks web server is the following:</p>
+
+<p><code>$ ipython notebook</code></p>
+
+<p>When you execute the command above, a new browser window is opened which shows the notebooks in the current folder. The IPython notebook files have the ".ipynb" extension.</p>
+
+<p><a name="readmoreIPy" title="Link: null"></a></p><h2>
+<a id="reading-more-about-ipython-notebooks" class="anchor" href="#reading-more-about-ipython-notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reading more about IPython Notebooks</h2> 
+There are a lot of notebooks available on the web which you can see and read. The GitHub repository available in <a href="https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks" title="Link: https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks">here</a> contains many useful and interesting ones. The source code of these notebooks is also available through the GitHub version control system.  
+
+<p>Another interesting source is the book "Python For Signal Processing" which is publicly available as a series of IPython notebooks available <a href="https://github.com/unpingco/Python-for-Signal-Processing" title="Link: https://github.com/unpingco/Python-for-Signal-Processing">at this address.<br></a></p>
+
+<p><a name="github" title="Link: null"></a></p><h1>
+<a id="working-with-github" class="anchor" href="#working-with-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Working with Github</h1>
+In this workshop, we are going to show you how you can publish the IPython Notebook for your paper onto <em>Github</em> and share it with your colleagues.
+For those of you who are not familiar with how Github works, we have summarized a few helpful commands to get you started.
+
+<p><a name="githubRepCreate" title="Link: null"></a></p><h2>
+<a id="creating-a-repository" class="anchor" href="#creating-a-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating a Repository</h2>
+A repository is a collection of files/folders where you store/share your code, data and paper body.
+To create a repository, you can simply
+
+<ol>
+<li> <a href="https://github.com/login?return_to=%2Fjoin">Sign in</a> to your Github account (or <a href="https://github.com/join">signup</a> by creating an account)
+</li>
+<li> Once signed in, click on the "+" sign on top right of your screen (see the figure below) and select "New Reprository".
+<img alt="Create a new repository on Github" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithub.png" width="600">
+</li>
+<li> Select a name for your repository and click on "Create reprository".
+<img alt="Create a new repository on Github" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep2.png" width="600">
+</li>
+<li>Congratulations! Once you see a screen like the one below you are done :) <b>Make sure to keep the URL specified in the figure below somewhere handy</b>.
+We will need it shortly. Also, <b>do not close this window for now!</b>.
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep3.png" width="600">
+</li>
+</ol>
+
+<p><a name="githubRepPush" title="Link: null"></a></p><h2>
+<a id="submitting-files-to-the-repository" class="anchor" href="#submitting-files-to-the-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>Submitting Files to the Repository</h2>
+<a name="githubRepPushMac" title="Link: null"></a><h4>
+<a id="mac-and-linux-users" class="anchor" href="#mac-and-linux-users" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mac and Linux Users</h4>
+Users that use Mac OS or Linux could use simple commands using terminal to submit your code.
+
+<ul>
+<li> Open a "Terminal" and <b>navigate to the folder containg your codes</b> (make sure you have some files in the folder). </li>
+<li> Execute the following commands </li>
+</ul>
+
+<pre><code>$ git init
+
+$ git add ./*
+
+$ git commit -m "first commit"
+
+$ git remote add origin the_url_to_your_repository
+
+$ git push -u origin master
+</code></pre>
+
+<p>Note that the "the_url_to_your_repository" is the same URL that you have "kept somewhere handy". Here's when we need it ;)</p>
+
+<p>
+</p> Congratulations! You have successfully submitted your code. To verify, go back to your web browser and navigate to your Github repository on the web. You should see a page like the one below.
+<br>
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep10.png" width="600">
+
+
+
+<p><a name="githubRepPushWin" title="Link: null"></a></p><h4>
+<a id="windows-users" class="anchor" href="#windows-users" aria-hidden="true"><span class="octicon octicon-link"></span></a>Windows Users</h4>
+
+<ol>
+<li> Donwload the Github client for Windows <a href="https://desktop.github.com/">from here</a> and install it.</li>
+<li> After installation, in your browser, navigate to the Github page you saw in the <i>Step 4</i> above. Then, select <b>Setup in Dekstop (see figure below)</b>
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep4.png" width="600">
+</li>
+<li> The browser will ask for permission to launch the Github application. Please allow it ;) 
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep5.png" width="600">
+</li>
+<li> Once opened, navigate to the place you want your repository be on your hard drive and clik on <b>Clone</b>.
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep6.png" width="600">
+</li>
+<li> You should now see a repository on the left panel in your Github application.
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep7.png" width="600">
+</li>
+<li> On your hard drive, add your codes to the repository folder. Then, go back to the Github application and you should see that new changes have been found in your repository.
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep8.png" width="600">
+</li>
+<li> At this point, add some comment to the "Summary" filed about what you changed and then click on <b>Commit and Sync master</b>.
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep9.png" width="600">
+</li>
+<li> Congratulations! You have successfully submitted your code. To verify, go back to your web browser and navigate to your Github repository on the web. You should see a page like the one below.
+<br>
+<img alt="Create a new repository on Github- Final step" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/CreateRepGithubStep10.png" width="600">
+</li>
+<li>
+Now, you can edit the code on your hard drive and submit it regularly (to backup and do version control) just like what we did above. Once finished, you can share the URL
+of your repository with your colleagues and let them to enjoy your magnificent work as well :) Happy coding!
+</li>
+</ol>
+
+<p><a name="githubRepPush" title="Link: null"></a></p><h2>
+<a id="reading-more-about-using-git-and-github" class="anchor" href="#reading-more-about-using-git-and-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reading More About Using Git and Github</h2>
+Git and Github are twopowerful tools for backing up your code, do proper version control and share the code with your colleagues.
+There are lots of very good tutorials on the web, from beginner to advanced.
+
+<ul>
+<li> <a href="https://help.github.com/articles/good-resources-for-learning-git-and-github/">A list of good resources</a> for learning Git and Github from Github website.</li>
+<li> A simple <a href="https://guides.github.com/activities/hello-world/">Github "Hello World" Example</a>
+</li>
+<li> Nice introductory <a href="https://www.udacity.com/course/how-to-use-git-and-github--ud775">course on using Git and Github</a>
+</li>
+</ul>
+
+<p><a name="coursdownload" title="Link: null"></a></p><h1>
+<a id="downloading-course-material" class="anchor" href="#downloading-course-material" aria-hidden="true"><span class="octicon octicon-link"></span></a>Downloading Course Material</h1>
+You can simply click on the <b>Download ZIP</b> button on the right side of your screen, as shown in the figure below (of course there is the "Github way" as well but for now, this simpler solution should do the job ;) ).
+<br>
+<img alt="Download Course Materials" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/DownloadCourseMaterial.png" width="600">
+
+<p><a name="contatcs" title="Link: null"></a></p><h1>
+<a id="contacts" class="anchor" href="#contacts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contacts</h1>
+In case you had any trouble in the above steps or ANY questions or suggestions regarding the workshop, logistics, IPython, etc.
+please do not hesitate to contact us (<a href="mailto:robin.scheibler@epfl.ch">Robin</a> or <a href="mailto:hesam.salavati@epfl.ch">Hesam</a>). We will be happy to help :) 
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/saloot/IPythonClass">Getting Prepared for the IPython Workshop</a> is maintained by <a href="https://github.com/saloot">saloot</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
