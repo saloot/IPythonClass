@@ -20,191 +20,90 @@
 
     <section class="main-content">
       <h1>
-<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h1>
+<a id="co2-code-repository" class="anchor" href="#co2-code-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>CO2 Code Repository</h1>
 
-<p>This notebook shows a simple example on how to start using IPython Notebooks.</p>
-
-<p>We start from basic stuff, namely, loading your data, working with arrays and so
-on.</p>
-
-<p>Then, we show you how to make your notebook a bit more interactive by giving the
-user the freedom to play with some parameters.</p>
-
-<p>Finally, we show you how you can publish your notebook on Github so that it can
-be shared with, for instance, your colleagues or your students.</p>
+<p>This is the code for the paper <a href="paper_link">"Increase in the Amount of CO2 and Ocean Heat Content"</a>.</p>
 
 <h2>
-<a id="about-the-example" class="anchor" href="#about-the-example" aria-hidden="true"><span class="octicon octicon-link"></span></a>About the example</h2>
+<a id="abstract" class="anchor" href="#abstract" aria-hidden="true"><span class="octicon octicon-link"></span></a>Abstract</h2>
 
-<p>To make the notebook more coherent, we have selected a simple example that uses
-real data about a very serious issue of our time: <strong>global warming</strong>.</p>
+<p>After a week spent meticulously agreeing the exact wording, the Intergovernmental Panel on Climate Change (IPCC)
+has just released a summary of the first part of its major report reviewing the science of climate change.</p>
 
-<p>We assume that you have recently published a paper on how <em>the amount of CO2</em>
-released into the atmoshpehere is correlated with <em>oceans' global heat content</em>.
-We assume that you have analyzed the data, published it in a paper
-<a href="paper_link">here</a> and at this point would like to share the code with your
-colleagues.</p>
+<h2>
+<a id="selected-results-from-the-paper" class="anchor" href="#selected-results-from-the-paper" aria-hidden="true"><span class="octicon octicon-link"></span></a>Selected results from the paper</h2>
 
-<p>Let's get started then!</p>
+<p>Our analysis shows that the increase in the amount of CO2 in the atmosphere is correlated with the increase in oceans' heat content. See the figure below.</p>
 
-<h1>
-<a id="loading-the-data" class="anchor" href="#loading-the-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Loading the Data</h1>
+<p><img src="CO2Example_files/AtmosphericCO2.png" alt="png">
+<br></p>
 
-<p>We first start by loading the data. We assume that the data is stored in a file
-called <code>CO2Data.csv</code> in the <code>/Data/</code> folder.</p>
-
-<p>Here's a snapshot of the CSV file.</p>
-
-<p>In short, our csv file has has <em>14</em> "columns" that contain the data we are
-interested in. These columns that we are interested in correspond to</p>
+<h2>
+<a id="executing-the-code" class="anchor" href="#executing-the-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Executing the Code</h2>
 
 <ol>
-<li>Mauna Loa: the amount of CO2 measured at the first location (in ppm)</li>
-<li>CO2 Dates: the dates when CO2 amount was measured in ppm</li>
-<li>South Pole: the amount of CO2 measured at the second location (in ppm)</li>
-<li>Heat content: oceans' heat content (in 10^22 J)</li>
-<li>Heat Content Dates: the dates where amount of heat content is measured</li>
-<li>+2 Standard Error: standard deviation for the heat content</li>
-<li>-2 Standard Error: standard deviation for the heat content</li>
-<li>Temperature Anomaly: the deviation in the temperature</li>
-<li>Temperature Dates: the dates where heat content was measured</li>
+<li>First, download the IPython notebook, either from this <a href="https://github.com/saloot/IPythonClass/blob/master/Sample%20Paper/Paper%20Code/CO2Example.ipynb">GitHub link</a>
+or directly from <a href="http://some_links">this link</a> (we recommend the GitHub method).</li>
+<li>Open a terminal/command line window and move to the directory the IPython Notebook is located. </li>
+<li>
+<p>In the command line, type</p>
+
+<p><code>ipython notebook</code></p>
+</li>
+<li>Consequently, a browser window pops up. Navigate to the browser window and select the IPython Notebook. </li>
+<li>You can then adjust parameters of the code and run different decoders.</li>
 </ol>
 
-<p>Source: <a href="http://scrippsco2.ucsd.edu/">Scripps CO<sub>2</sub></a><br><a href="http://www.carbonbrief.org/blog/2013/09/ipcc-six-graphs-that-explain-how-%0Athe-climate-is-changing/">The Carbon Brief</a> &amp; <a href="http://www.economist.com/blogs/graphicdetail/2012/05/daily-chart-1">The
-Economist</a></p>
+<h3>
+<a id="required-packages" class="anchor" href="#required-packages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Required Packages</h3>
+
+<ul>
+<li>A working distribution of <a href="https://www.python.org/downloads/">Python 2.7</a>.</li>
+<li>The code relies heavily on <a href="http://www.numpy.org/">Numpy</a>, and <a href="http://matplotlib.org">matplotlib</a>.</li>
+<li>It also depends on several other standard Python packages, such as <a href="https://docs.python.org/3/library/os.html">os</a>, <a href="https://docs.python.org/3/library/sys.html">sys</a>, <a href="https://docs.python.org/3/library/getopt.html">getopt</a>, <a href="https://docs.python.org/3/library/pdb.html">pdb</a> and <a href="https://docs.python.org/3/library/random.html">random</a>.</li>
+</ul>
 
 <h3>
-<a id="initialization" class="anchor" href="#initialization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initialization</h3>
+<a id="tested-on" class="anchor" href="#tested-on" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tested on...</h3>
 
-<p>We start by importing the necessary libraries and initializing our data
-variables</p>
+<p>The code has been tested on Mac OS X 10.7, 10.8, 10.9, and on Ubuntu linux.</p>
 
-<pre><code>import csv                                    # Import the necessary library to work with csv files                              
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>2013-2015 (c) Author 1 and Author 2.</p>
+
+<p>This work is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy
+of this license, visit <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">this link</a>.</p>
+
+<p>The code is free to reuse for non-commercial and academic purposes. However,
+please acknowledge its use with the following citation.</p>
+
+<pre><code>@article{EPFL-JOUR-204991,
+   author      = {Author 1 and Author 2},
+   title       = {Paper Title},
+   journal     = {Some journal}
+   volume      = 1,
+   year        = 2016,
+   ee          = {http://link_to_paper.ch}
+}
 </code></pre>
 
-<p>Now the command below creates an <em>empty</em> dcitionaries whose <em>keys</em> match those
-of our csv file.</p>
+<h2>
+<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h2>
 
-<p>This will become handy since we want to organize our data into columns later.</p>
+<p>For any other purposes, please contact the authors.</p>
 
-<pre><code>data_entries = {'Heat Content':[],
-                'Mauna Loa':[],
-                'CO2 Dates':[],
-                'South Pole':[],
-                'Heat Content Dates':[],
-                '+2 Standard Error':[],
-                '-2 Standard Error':[],
-                'Temperature Anomaly':[],
-                'Temperature Dates':[],
-                'trace6':[],
-                'trace7':[],
-                'trace8':[],
-                'trace9':[],
-                'trace10':[]}
-</code></pre>
+<p>Author 1
+(<a href="mailto:first%5Bdot%5Dlast%5Bat%5Depfl%5Bdot%5Dch">email</a>)
+(<a href="http://google.com">homepage</a>)</p>
 
-<h3>
-<a id="reading-the-data" class="anchor" href="#reading-the-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reading the Data</h3>
+<p>Author 2
+(<a href="mailto:first2%5Bdot%5Dlast2%5Bat%5Depfl%5Bdot%5Dch">email</a>)
+(<a href="http://google.com">homepage</a>)</p>
 
-<p>We now load the columns' data from the csv file into the <em>data_entries</em>
-variable.</p>
-
-<pre><code>data_file_name = './Data/CO2Data.csv'
-with open(data_file_name, 'rb') as f:
-    reader = csv.DictReader (f)
-    for line in reader:
-        for item in line:
-            if 'Dates' not in item:
-                if line[item]:
-                    data_entries[item].append(float(line[item]))
-            else:
-                if line[item]:
-                    data_entries[item].append(line[item])
-                    #data_entries[item].append(int(line[item][0:4]))
-</code></pre>
-
-<p>To make sure that we have importted the data correctly, let's print the first 8
-dates when the CO2 amount was measured.</p>
-
-<pre><code>print data_entries['CO2 Dates'][0:8]
-
-['1958-03-01', '1958-04-01', '1958-05-01', '1958-06-01', '1958-07-01', '1958-08-01', '1958-09-01', '1958-10-01']
-</code></pre>
-
-<h1>
-<a id="basic-plots" class="anchor" href="#basic-plots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Plots</h1>
-
-<p>Let's start with our first plot, namely, <em>global ocean heat content</em> as a matter
-of time.</p>
-
-<p>We start by import <em>matplotlib</em>, a Python library that handles plots elegantly.</p>
-
-<pre><code>import matplotlib.pyplot as plt                # Import the necessary library to plot results
-</code></pre>
-
-<p>We then make sure that plots are displayed within the cells and adjust their
-size.</p>
-
-<pre><code>%matplotlib inline  
-plt.rcParams['figure.figsize'] = (16.0, 10.0)
-</code></pre>
-
-<p>It is time to plot our first result. We first re-organize our x-axis dates to
-only contain the years.</p>
-
-<pre><code>years = []
-for item in data_entries['Heat Content Dates']:
-    years.append(int(item[0:4]))
-</code></pre>
-
-<p>Then, prepare the axis labels and plot title before plotting the results.</p>
-
-<pre><code>fig = plt.figure()
-fig.suptitle('Global Ocean Heat Content', fontsize=20)
-#plt.xlabel('Year', fontsize=18)
-plt.ylabel('Heat Content ($10^{22}$J)', fontsize=16)
-
-plt.plot(years,data_entries['Heat Content'],linewidth=2)
-plt.show()
-</code></pre>
-
-<p><img src="CO2Example_files/CO2Example_26_0.png" alt="png"></p>
-
-<p>Finally, save the figure if you want.</p>
-
-<pre><code>fig.savefig('./Results/HeatContent_vs_Year.png')
-</code></pre>
-
-<h3>
-<a id="the-second-plot" class="anchor" href="#the-second-plot" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Second Plot</h3>
-
-<p>Now let us plot the amount of CO2 in the atmosphere in the course of the years.</p>
-
-<p>Note that we now have to pieces of data, one corresponding to <em>South Pole</em> and
-the other capturing CO2 in <em>Mauna Loa</em>.</p>
-
-<pre><code>co2_years = []
-for item in data_entries['CO2 Dates']:
-    co2_years.append(int(item[0:4]))
-
-
-fig = plt.figure()
-fig.suptitle('Global Ocean Heat Content', fontsize=20)
-#plt.xlabel('Year', fontsize=18)
-plt.ylabel('$CO_2$ (ppm)', fontsize=16)
-
-plt.plot(co2_years,data_entries['South Pole'],linewidth=2,label='South Pole')
-plt.plot(co2_years,data_entries['Mauna Loa'],linewidth=2,color='r',label='Mauna Loa')
-plt.legend(loc='upper left')
-plt.show()
-</code></pre>
-
-<p><img src="CO2Example_files/CO2Example_33_0.png" alt="png"></p>
-
-<p>Again, you can save the figure if you want.</p>
-
-<pre><code>fig.savefig('./Results/CO2_vs_Year.png')
-</code></pre>
+<p>Please do not hesitate to contact us. We would be happy to help you run the code.</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/saloot/IPythonClass">CO2 and Heat Content: A Rising Trend?</a> is maintained by <a href="https://github.com/saloot">saloot</a>.</span>
