@@ -135,12 +135,12 @@ We will need it shortly. Also, <b>do not close this window for now!</b>.
 <a name="githubRepPushMac" title="Link: null"></a><h4>Mac and Linux Users</h4>
 Users that use Mac OS or Linux could use simple commands using terminal to submit your code.
 <ul>
-<li> Open a "Terminal" and navigate to the folder containg your codes (make sure you have some files in the folder). </li>
+<li> Open a "Terminal" and <b>navigate to the folder containg your codes</b> (make sure you have some files in the folder). </li>
 <li> Execute the following commands </li>
 </ul>
     $ git init
 
-    $ git add *
+    $ git add ./*
 
     $ git commit -m "first commit"
 
