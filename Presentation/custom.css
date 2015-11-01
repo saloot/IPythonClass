@@ -1,11 +1,14 @@
 body {
-background-color: #81DAF5;
+background-color: white;
+}
+.reveal{
+width: 100%;
 }
 .reveal p {
-color: white;
+color: #5C5858;
 }
 .reveal ul, ol {
-color: white;
+color: #5C5858;
 }
 div.output_area pre {
 color: white;
@@ -18,7 +21,7 @@ color: white;
 }
 .reveal h2 {
 color: #1C1C1C;
-border-bottom: solid grey;
+border-bottom: solid #3090C7;
 padding-bottom: 5px;
 }
 .reveal h3 {
