@@ -25,6 +25,12 @@ which was provided by <a href="http://lcav.epfl.ch">LCAV</a>.
 </ol>
 
 <li><a href="#ipynb" title="Link: #ipynb">IPython Notebooks</a></li>
+<ul>
+<li><a href="#ipyslide" title="Link: #ipyslide">Creating Slides with IPython Notebooks</a></li>
+<li><a href="#ipylatex" title="Link: #ipylatex">Typing Math Formulas in IPython Notebooks</a></li>
+<li><a href="#readmoreIPy" title="Link: #readmoreIPy">Reading more about Python basics</a></li>
+</ul>
+
 <li><a href="#github" title="Link: #ipynb">Working with Github</a></li>
 <li><a href="#coursdownload" title="Link: #ipynb">Downloading Course Material</a></li>
 <li><a href="#contatcs" title="Link: #ipynb">Contact Us</a></li>
@@ -88,6 +94,15 @@ Now open the file ~/.profile and add the following line
 
 
 Then close the terminal session and try again. You might need to replace <code>us_EN</code> by a different value matching your system configuration.
+
+
+<a name="ipyslide" title="Link: null"></a><h2>Creating Slides with IPython Notebooks</h2>
+You can use your IPython Notebook to create slideshows as well. We have put a somewhat detailed set of instructions in the `Presentation` folder (check <a href="https://github.com/saloot/IPythonClass/tree/master/Presentation">here</a>).
+<br>
+
+<a name="ipylatex" title="Link: null"></a><h2>Typing Math Formulas in IPython Notebooks</h2>
+You can also type math formulas just like the way you do with *Latex* in the IPython Notebooks. 
+<br>
 
 <a name="readmoreIPy" title="Link: null"></a><h2>Reading more about Python basics</h2>
 If you are new to Python, you can start with some introdcutory online courses (such as [this one](https://www.udacity.com/course/programming-foundations-with-python--ud036)).
@@ -203,6 +218,8 @@ There are lots of very good tutorials on the web, from beginner to advanced.
 You can simply click on the <b>Download ZIP</b> button on the right side of your screen, as shown in the figure below (of course there is the "Github way" as well but for now, this simpler solution should do the job ;) ).
 <br>
 <img alt="Download Course Materials" src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/DownloadCourseMaterial.png" width="600">
+
+
 
 
 <a name="contatcs" title="Link: null"></a><h1>Contacts</h1>
