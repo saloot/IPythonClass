@@ -8,13 +8,11 @@ Creating the Slides
 --------
 The slides are created in the same way that each block of code is created: using *cells*. To create a slide, simply select *slideshow* in the *Cell Toolbar* (see the figure below).
 <br>
-<br>
 <img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides1.png" style="border:2px solid #7C8082;width:450px;">
 <br>
 <br>
 
 Then, select the appropriate cell type from the corresponding dropdown menu (we selected *Markdown* for the example below).
-<br>
 <br>
 <img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides2.png" style="border:2px solid #7C8082;width:450px;">
 <br>
@@ -22,13 +20,11 @@ Then, select the appropriate cell type from the corresponding dropdown menu (we 
 
 The result should like this
 <br>
-<br>
 <img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides3.png" style="border:2px solid #7C8082;width:500px;">
 <br>
 <br>
 
 If you select *Markdown*, you can style your slides according to Markdown conventions or even use **HTML**.
-<br>
 <br>
 <img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides4.png" style="border:2px solid #7C8082;width:450px;">
 
