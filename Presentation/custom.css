@@ -1,0 +1,40 @@
+body {
+background-color: white;
+}
+
+body slides{    
+    width: 100%;
+}
+
+.reveal slides{
+width: 100%;
+}
+
+.present{
+width: 100%;
+}
+
+.reveal p {
+color: #5C5858;
+}
+.reveal ul, ol {
+color: #5C5858;
+}
+div.output_area pre {
+color: #5C5858;
+}
+div.output_stderr {
+background: #F00;
+}
+.reveal table th, .reveal table td {
+color: #5C5858;
+}
+.reveal h2 {
+color: #1C1C1C;
+border-bottom: solid #3090C7;
+padding-bottom: 5px;
+}
+.reveal h3 {
+color: #424242;
+}
+
