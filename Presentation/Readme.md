@@ -49,6 +49,15 @@ If you are familiar with CSS (Cascading Style Sheets), you can easily change the
 
 To so so, simply add your styles to the file `custom.css` and put it in the same folder as the one your slides are in.
 
+
+Learn More
+--------
+If you are curious to learn more about using IPython Notebooks for slideshows, please check out [this article](http://www.damian.oquanta.info/posts/make-your-slides-with-ipython.html) by Damian Avila.
+Specifically, there is a slideshow embeded within the page which introduces different features of the slideshows with IPython Notebooks.
+
+Also, you might be interested to see a youtube video where he talks about preparing slides with IPython Notebooks.
+<iframe width="600" height="400" src="https://www.youtube.com/embed/rBS6hmiK-H8" frameborder="0" allowfullscreen></iframe>
+
 Contact
 -------
 If you had any questions or problems, please do not hesitate to contact us!
