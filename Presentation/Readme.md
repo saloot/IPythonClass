@@ -30,7 +30,7 @@ If you select *Markdown*, you can style your slides according to Markdown conven
 
 
 Selecting Different Slide Types
-----------------
+----
 Choosing
 
 Rendering the Slides
