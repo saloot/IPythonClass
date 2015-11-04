@@ -126,9 +126,9 @@ And the result will be
 
 
 <br>
-You can also export yout notebooks into latex using *nbconvert* command as follows
+You can also export yout notebooks into latex by opening a "terminal/command prompt" and using *nbconvert* command as follows
 
-  1. Sign in to the folder that contain your IPython Notebook
+  1. Go to the folder that contain your IPython Notebook
   2. In the command line, type
 
 `$ ipython nbconvert --to latex your_notebook_name`

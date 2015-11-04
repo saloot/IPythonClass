@@ -26,32 +26,41 @@ The result should like this
 
 If you select *Markdown*, you can style your slides according to Markdown conventions or even use **HTML**.
 <br>
-<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides4.png" style="border:2px solid #7C8082;width:450px;">
+<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides4.png" style="border:2px solid #7C8082;width:400px;">
 
 
 
 Rendering the Slides
 --------
-Our analysis shows that the increase in the amount of CO2 in the atmosphere is correlated with the increase in oceans' heat content. See the figure below.
+To render the slides, please open a "terminal" (in MAC OS/Linux) or "command prompt" (in Windows) and use *nbconvert* command as follows
 
-<img src="https://documents.epfl.ch/users/s/sa/salavati/public/IPythonClassPhotos/AtmosphericCO2.png" width=600 style="border:solid 1px #7C8082;">
+  1. Go to the folder that contain your IPython Notebook (using the "cd" command)
+  2. In the command line, type
+
+`$ ipython nbconvert --to --to slides --post serve your_notebook_name`
+
+This will open a browser with your slideshow running (as a result of the `--post serve` command option).
+
 <br>
 
 Custom Styling Using CSS
 --------
-You can use custom.css
+If you are familiar with CSS (Cascading Style Sheets), you can easily change the style of your slides according to your own will.
+
+To so so, simply add your styles to the file `custom.css` and put it in the same folder as the one your slides are in.
 
 Contact
 -------
-For any other purposes, please contact the authors.
+If you had any questions or problems, please do not hesitate to contact us!
 
-Author 1
-([email](mailto:first[dot]last[at]epfl[dot]ch))
-([homepage](http://google.com))
+Robin Scheible
+([email](mailto:robin.scheibler@epfl.ch))
+([homepage](http://lcav.epfl.ch/Robin_Scheibler))
 
-Author 2
-([email](mailto:first2[dot]last2[at]epfl[dot]ch))
-([homepage](http://google.com))
 
-Please do not hesitate to contact us. We would be happy to help you run the code.
+Amir Hesam Salavati
+([email](mailto:saloot@gmail.com))
+([homepage](http://rr.epfl.ch/author/AmirHesamSalavati))
+
+We would be happy to help!
 
