@@ -56,7 +56,11 @@ If you are curious to learn more about using IPython Notebooks for slideshows, p
 Specifically, there is a slideshow embeded within the page which introduces different features of the slideshows with IPython Notebooks.
 
 Also, you might be interested to see a youtube video where he talks about preparing slides with IPython Notebooks.
+<div>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/rBS6hmiK-H8" frameborder="0" allowfullscreen></iframe>
+</div>
+
+[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/embed/rBS6hmiK-H8)
 
 Contact
 -------
