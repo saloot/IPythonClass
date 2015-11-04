@@ -27,7 +27,7 @@ which was provided by <a href="http://lcav.epfl.ch">LCAV</a>.
 <li><a href="#ipynb" title="Link: #ipynb">IPython Notebooks</a></li>
 <ul>
 <li><a href="#ipyslide" title="Link: #ipyslide">Creating Slides with IPython Notebooks</a></li>
-<li><a href="#ipylatex" title="Link: #ipylatex">Typing Math Formulas in IPython Notebooks</a></li>
+<li><a href="#ipylatex" title="Link: #ipylatex">Latex IPython Notebooks</a></li>
 <li><a href="#readmoreIPy" title="Link: #readmoreIPy">Reading more about Python basics</a></li>
 </ul>
 
@@ -114,10 +114,24 @@ When you execute the command above, a new browser window is opened which shows t
 You can use your IPython Notebook to create slideshows as well. We have put a somewhat detailed set of instructions in the `Presentation` folder (check <a href="https://github.com/saloot/IPythonClass/tree/master/Presentation">here</a>).
 <br>
 
-<a name="ipylatex" title="Link: null"></a><h2>Typing Math Formulas in IPython Notebooks</h2>
-You can also type math formulas just like the way you do with *Latex* in the IPython Notebooks. 
-<br>
+<a name="ipylatex" title="Link: null"></a><h2>Latex and IPython Notebooks</h2>
+You can type math formulas just like the way you do with *Latex* in the IPython Notebooks. To do so, select *Markdown* in the cell type dropdown menu (see te figure below).
+<img alt="Cell Markdown" src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonLatex.png" width="600">
 
+Now you can type math formulas following the latex format. For instance
+<img alt="Latex formulas in Ipython Notebooks" src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonLatexAfter.png" width="600">
+
+And the result will be
+<img alt="Latex formulas in Ipython Notebooks" src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonLatexBefore.png" width="600">
+
+
+<br>
+You can also export yout notebooks into latex using *nbconvert* command as follows
+
+  1. Sign in to the folder that contain your IPython Notebook
+  2. In the command line, type
+
+`$ ipython nbconvert --to latex your_notebook_name`
 
 <a name="readmoreIPy" title="Link: null"></a><h2>Reading more about IPython Notebooks</h2> 
 There are a lot of notebooks available on the web which you can see and read. The GitHub repository available in <a href="https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks" title="Link: https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks">here</a>&nbsp;contains many useful and interesting ones. The source code of these notebooks is also available through the GitHub version control system.  
