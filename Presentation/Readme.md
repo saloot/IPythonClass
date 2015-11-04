@@ -55,12 +55,12 @@ Learn More
 If you are curious to learn more about using IPython Notebooks for slideshows, please check out [this article](http://www.damian.oquanta.info/posts/make-your-slides-with-ipython.html) by Damian Avila.
 Specifically, there is a slideshow embeded within the page which introduces different features of the slideshows with IPython Notebooks.
 
-Also, you might be interested to see a youtube video where he talks about preparing slides with IPython Notebooks.
+Also, you might be interested to see a [youtube video](https://www.youtube.com/embed/rBS6hmiK-H8) where he talks about preparing slides with IPython Notebooks.
 <div>
 <iframe width="600" height="400" src="https://www.youtube.com/embed/rBS6hmiK-H8" frameborder="0" allowfullscreen></iframe>
 </div>
 
-[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/embed/rBS6hmiK-H8)
+[![ScreenShot](https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPYSlideYoutube.png)](https://www.youtube.com/embed/rBS6hmiK-H8)
 
 Contact
 -------
