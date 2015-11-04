@@ -11,7 +11,7 @@ which was provided by <a href="http://lcav.epfl.ch">LCAV</a>.
 
 <li><a href="#insana" title="Link: #ana">Installing Python and IPython Notebooks</a><br></li>
 
-<ol>
+<ul>
 <li><a href="#dl" title="Link: #dl">Downloading Anaconda</a><br></li>
 
 
@@ -22,7 +22,7 @@ which was provided by <a href="http://lcav.epfl.ch">LCAV</a>.
 
 <li><a href="#mac" title="Link: #mac">Installation on Mac</a><br></li>
 
-</ol>
+</ul>
 
 <li><a href="#ipynb" title="Link: #ipynb">IPython Notebooks</a></li>
 <ul>
@@ -95,15 +95,6 @@ Now open the file ~/.profile and add the following line
 
 Then close the terminal session and try again. You might need to replace <code>us_EN</code> by a different value matching your system configuration.
 
-
-<a name="ipyslide" title="Link: null"></a><h2>Creating Slides with IPython Notebooks</h2>
-You can use your IPython Notebook to create slideshows as well. We have put a somewhat detailed set of instructions in the `Presentation` folder (check <a href="https://github.com/saloot/IPythonClass/tree/master/Presentation">here</a>).
-<br>
-
-<a name="ipylatex" title="Link: null"></a><h2>Typing Math Formulas in IPython Notebooks</h2>
-You can also type math formulas just like the way you do with *Latex* in the IPython Notebooks. 
-<br>
-
 <a name="readmoreIPy" title="Link: null"></a><h2>Reading more about Python basics</h2>
 If you are new to Python, you can start with some introdcutory online courses (such as [this one](https://www.udacity.com/course/programming-foundations-with-python--ud036)).
 
@@ -118,6 +109,15 @@ The command to run the IPython Notebooks web server is the following:
 `$ ipython notebook`
 
 When you execute the command above, a new browser window is opened which shows the notebooks in the current folder. The IPython notebook files have the ".ipynb" extension.
+
+<a name="ipyslide" title="Link: null"></a><h2>Creating Slides with IPython Notebooks</h2>
+You can use your IPython Notebook to create slideshows as well. We have put a somewhat detailed set of instructions in the `Presentation` folder (check <a href="https://github.com/saloot/IPythonClass/tree/master/Presentation">here</a>).
+<br>
+
+<a name="ipylatex" title="Link: null"></a><h2>Typing Math Formulas in IPython Notebooks</h2>
+You can also type math formulas just like the way you do with *Latex* in the IPython Notebooks. 
+<br>
+
 
 <a name="readmoreIPy" title="Link: null"></a><h2>Reading more about IPython Notebooks</h2> 
 There are a lot of notebooks available on the web which you can see and read. The GitHub repository available in <a href="https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks" title="Link: https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks">here</a>&nbsp;contains many useful and interesting ones. The source code of these notebooks is also available through the GitHub version control system.  
