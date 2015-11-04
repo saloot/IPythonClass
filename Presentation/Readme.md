@@ -21,7 +21,7 @@ The result should like this
 
 If you select *Markdown*, you can style your slides according to Markdown conventions or even use **HTML**.
 <br>
-<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides4.png" width=500 border="2" style="border:2px solid #7C8082;">
+<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides4.png" width=500 border="2">
 
 
 
