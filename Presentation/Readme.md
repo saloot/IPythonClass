@@ -29,6 +29,9 @@ If you select *Markdown*, you can style your slides according to Markdown conven
 <img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides4.png" style="border:2px solid #7C8082;width:400px;">
 
 
+Selecting Different Slide Types
+----------------
+Choosing
 
 Rendering the Slides
 --------
