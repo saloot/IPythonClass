@@ -8,20 +8,20 @@ Creating the Slides
 --------
 The slides are created in the same way that each block of code is created: using *cells*. To create a slide, simply select *slideshow* in the *Cell Toolbar* (see the figure below).
 <br>
-<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides1.png" width=500 style="border:solid 1px #7C8082;">
+<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides1.png" width=500 style="border:2px solid #7C8082;">
 
 Then, select the appropriate cell type from the corresponding dropdown menu (we selected *Markdown* for the example below).
 <br>
-<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides2.png" width=500 style="border:solid 1px #7C8082;">
+<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides2.png" width=500 style="border:2px solid #7C8082;">
 
 The result should like this
 <br>
-<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides3.png" width=500 style="border:solid 1px #7C8082;">
+<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides3.png" width=500 style="border:2px solid #7C8082;">
 
 
 If you select *Markdown*, you can style your slides according to Markdown conventions or even use **HTML**.
 <br>
-<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides4.png" width=500 style="border:solid 1px #7C8082;">
+<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides4.png" width=500 style="border:2px solid #7C8082;">
 
 
 
