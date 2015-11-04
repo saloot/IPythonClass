@@ -5,7 +5,7 @@ IPython Notebooks can also be used to make slide shows. All you have to do is to
 
 
 Creating the Slides
---------
+----
 The slides are created in the same way that each block of code is created: using *cells*. To create a slide, simply select *slideshow* in the *Cell Toolbar* (see the figure below).
 <br>
 <img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPythonSlides1.png" style="border:2px solid #7C8082;width:450px;">
@@ -30,11 +30,29 @@ If you select *Markdown*, you can style your slides according to Markdown conven
 
 
 Selecting Different Slide Types
-----
-Choosing
+------------
+Now that you know how to create slides, you might be interested in adding more "elegance" to them by making different parts appear at different times.
+<img src="https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/SlideTypeSelector.png" style="border:2px solid #7C8082;width:400px;">
+
+
+There are five different slide typesto choose (see the figure above).
+<ul>
+<li>Slide</li>
+<li>Sub-slide</li>
+<li>Fragment</li>
+<li>Skip</li>
+<li>Notes</li>
+</ul>
+
+The *Slide* option creats a slide with *horizontal* transition. *Sub-slide* will create a sub-topic within a slide with *vertical* transitions.
+
+Probably the mostimportant one is *Fragment*, which creates the content of each slide that appear one fragment at a click.
+
+The *Skip* type creates a slide that will be presented in the final slideshow. The *Notes* option creates a slide that will be only visible to the presenter. 
+
 
 Rendering the Slides
---------
+----
 To render the slides, please open a "terminal" (in MAC OS/Linux) or "command prompt" (in Windows) and use *nbconvert* command as follows
 
   1. Go to the folder that contain your IPython Notebook (using the "cd" command)
@@ -47,14 +65,14 @@ This will open a browser with your slideshow running (as a result of the `--post
 <br>
 
 Custom Styling Using CSS
---------
+----
 If you are familiar with CSS (Cascading Style Sheets), you can easily change the style of your slides according to your own will.
 
 To so so, simply add your styles to the file `custom.css` and put it in the same folder as the one your slides are in.
 
 
 Learn More
---------
+----
 If you are curious to learn more about using IPython Notebooks for slideshows, please check out [this article](http://www.damian.oquanta.info/posts/make-your-slides-with-ipython.html) by Damian Avila.
 Specifically, there is a slideshow embeded within the page which introduces different features of the slideshows with IPython Notebooks.
 
@@ -66,7 +84,7 @@ Also, you might be interested to see a [youtube video](https://www.youtube.com/e
 [![ScreenShot](https://raw.githubusercontent.com/saloot/IPythonClass/master/Presentation/Figures/IPYSlideYoutube.png)](https://www.youtube.com/embed/rBS6hmiK-H8)
 
 Contact
--------
+----
 If you had any questions or problems, please do not hesitate to contact us!
 
 Robin Scheible
