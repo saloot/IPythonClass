@@ -44,11 +44,11 @@ There are five different slide typesto choose (see the figure above).
 <li>Notes</li>
 </ul>
 
-The *Slide* option creats a slide with *horizontal* transition. *Sub-slide* will create a sub-topic within a slide with *vertical* transitions.
+The <span style="color:green;">Slide</span> option creats a slide with *horizontal* transition. <span style="color:green;">Sub-slide</span> will create a sub-topic within a slide with *vertical* transitions.
 
-Probably the mostimportant one is *Fragment*, which creates the content of each slide that appear one fragment at a click.
+Probably the mostimportant one is <span style="color:green;">Fragment</span>, which creates the content of each slide that appear one fragment at a click.
 
-The *Skip* type creates a slide that will be presented in the final slideshow. The *Notes* option creates a slide that will be only visible to the presenter. 
+The <span style="color:green;">Skip</span> type creates a slide that will be presented in the final slideshow. The <span style="color:green;">Notes</span> option creates a slide that will be only visible to the presenter. 
 
 
 Rendering the Slides
